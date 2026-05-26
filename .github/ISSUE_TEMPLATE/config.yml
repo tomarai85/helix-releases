@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Landing page
+    url: https://landing-page-mu-azure.vercel.app/
+    about: Product overview, download, and FAQ.
+  - name: Privacy / refund
+    url: https://landing-page-mu-azure.vercel.app/legal/
+    about: Legal documents (privacy, refund, terms).
