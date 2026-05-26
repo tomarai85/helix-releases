@@ -4,9 +4,15 @@ Multi-pane terminal IDE for macOS: 4 terminals + browser preview in one window.
 
 > **β release.** Free during early access. Sign up at [the landing page](https://landing-page-mu-azure.vercel.app/) for release notes.
 
+## What is Helix
+
+A single-window workspace for Mac devs who run multiple things in parallel — Claude Code in one pane, SSH to a remote host in another, build/test output in a third, and a live browser preview alongside. No constant ⌘-tab between apps; the workflow stays in one window.
+
+Built primarily for the Claude Code + Mac mini SSH workflow but the panes are generic — any shell, any preview URL.
+
 ## Download
 
-Latest release: see [Releases](https://github.com/tomonoriarai2020-lgtm/helix-releases/releases/latest).
+Latest release: see [Releases](https://github.com/tomarai85/helix-releases/releases/latest).
 
 After download, verify the SHA-256 against the `*.sha256` file on the release page:
 
@@ -27,9 +33,18 @@ shasum -a 256 Helix-<version>.dmg
 - Apple Silicon recommended (Intel: best-effort)
 - ~150 MB disk
 
+## Roadmap (= tentative β scope)
+
+- **v0.1.x** — stability + crash fixes (current)
+- **v0.2** — multi-window + project tabs
+- **v0.3** — snippet library + session bookmarks
+- **v1.0** — paid release with App Store distribution
+
+Roadmap is best-effort, single-developer studio. β feedback shapes priority — open an issue if something matters.
+
 ## Support
 
-- Bug reports: open an issue in this repo.
+- Bug reports / feature requests: open an issue in this repo (templates available).
 - Privacy / refund / legal: see [landing-page/legal](https://landing-page-mu-azure.vercel.app/legal/).
 
 ## License
