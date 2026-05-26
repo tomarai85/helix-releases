@@ -3,7 +3,7 @@
 # Usage: ./scripts/cut-release.sh <version> [<dmg-path>]
 #   e.g. ./scripts/cut-release.sh 0.1.0 ~/Direct/helix/ios/landing-page/Helix-0.1.0.dmg
 #
-# Pre-condition: gh auth must be tomonoriarai2020-lgtm.
+# Pre-condition: gh auth must be tomarai85.
 # Effect:
 #   1. SHA-256 of DMG
 #   2. gh release create <vX.Y.Z> with DMG + sha256
@@ -27,14 +27,14 @@ if [[ ! -f "$DMG" ]]; then
     exit 1
 fi
 
-REPO="tomonoriarai2020-lgtm/helix-releases"
+REPO="tomarai85/helix-releases"
 TAG="v${VERSION}"
 
 # Verify gh auth account
 ACTIVE_ACCOUNT=$(gh api /user --jq .login 2>/dev/null || echo "")
-if [[ "$ACTIVE_ACCOUNT" != "tomonoriarai2020-lgtm" ]]; then
-    echo "ERROR: gh auth account is '$ACTIVE_ACCOUNT', expected 'tomonoriarai2020-lgtm'." >&2
-    echo "Run: gh auth switch -u tomonoriarai2020-lgtm" >&2
+if [[ "$ACTIVE_ACCOUNT" != "tomarai85" ]]; then
+    echo "ERROR: gh auth account is '$ACTIVE_ACCOUNT', expected 'tomarai85'." >&2
+    echo "Run: gh auth switch -u tomarai85" >&2
     exit 1
 fi
 

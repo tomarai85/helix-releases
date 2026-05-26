@@ -8,7 +8,7 @@
 #
 # Pre-condition:
 #   - DMG built at ~/Direct/helix/ios/landing-page/Helix-${VERSION}.dmg
-#   - gh auth = tomonoriarai2020-lgtm
+#   - gh auth = tomarai85
 #   - vercel CLI installed + project linked
 #
 # Effect (= all-or-nothing best-effort):
@@ -88,4 +88,4 @@ else
 fi
 
 echo
-echo "Release pipeline complete: v${VERSION} live on https://github.com/tomonoriarai2020-lgtm/helix-releases/releases/tag/v${VERSION}"
+echo "Release pipeline complete: v${VERSION} live on https://github.com/tomarai85/helix-releases/releases/tag/v${VERSION}"
