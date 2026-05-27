@@ -22,5 +22,5 @@ First public release of Helix β.
 
 ```sh
 shasum -a 256 Helix-0.1.0.dmg
-# expected: 144092816c864ddb5febfba33836a27d490b2081942a1f1176be9f4083b89f3f
+# expected: b09c649939d07e2faa9df8187fdf2fb71eb58e3a6b2ed6a7e3650fc2ed054c52
 ```
