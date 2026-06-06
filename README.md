@@ -1,6 +1,12 @@
 # Helix — Free Beta
 
+[![Platform: macOS](https://img.shields.io/badge/platform-macOS%2014%2B-lightgrey.svg)](https://landing-page-mu-azure.vercel.app/)
+[![Status: free beta](https://img.shields.io/badge/status-free%20beta-2dd4bf.svg)](https://landing-page-mu-azure.vercel.app/)
+[![A Direct product](https://img.shields.io/badge/-a%20Direct%20product-0a0a0f.svg)](https://direct-homepage.vercel.app)
+
 Multi-pane terminal IDE for macOS: 4 terminals + browser preview in one window.
+
+![Helix — four terminal panes (SSH, dev server, Claude Code, git) plus a live browser preview in one native macOS window](assets/helix-hero.png)
 
 > **β release.** Free during early access. Sign up at [the landing page](https://landing-page-mu-azure.vercel.app/) for release notes.
 
