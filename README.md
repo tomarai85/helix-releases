@@ -27,6 +27,12 @@ shasum -a 256 Helix-<version>.dmg
 3. On first launch macOS may show a Gatekeeper warning since the beta DMG is not yet notarized. Right-click → **Open** → **Open** to bypass.
 4. Settings → SSH host setup is in the in-app **Help** menu.
 
+## Uninstall
+
+1. Quit Helix.
+2. Move **Helix.app** from `/Applications` to the Trash.
+3. (Optional, full cleanup) remove any Helix-related files from `~/Library/Application Support`, `~/Library/Caches`, `~/Library/Preferences`, and `~/Library/Saved Application State`.
+
 ## System requirements
 
 - macOS 14 (Sonoma) or later
